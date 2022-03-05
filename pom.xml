@@ -19,6 +19,7 @@
     <modules>
         <module>spring-boot-security</module>
         <module>spring-boot-example-swagger</module>
+        <module>spring-boot-mongdb-example</module>
     </modules>
 
     <properties>
