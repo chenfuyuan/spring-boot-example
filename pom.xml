@@ -20,6 +20,7 @@
         <module>spring-boot-security</module>
         <module>spring-boot-example-swagger</module>
         <module>spring-boot-mongdb-example</module>
+        <module>spring-boot-pulsar-example</module>
     </modules>
 
     <properties>

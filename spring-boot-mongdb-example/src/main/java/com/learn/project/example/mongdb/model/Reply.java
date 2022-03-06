@@ -1,7 +1,7 @@
 package com.learn.project.example.mongdb.model;
 
 import lombok.Data;
-import org.springframework.data.mongodb.core.mapping.DBRef;
+
 
 import java.util.List;
 
@@ -13,6 +13,13 @@ import java.util.List;
  */
 @Data
 public class Reply {
+
+    public Reply(String id) {
+        this.id = id;
+    }
+
+    public Reply() {
+    }
 
     /**
      * id
@@ -49,7 +56,5 @@ public class Reply {
     /**
      * 回复列表
      */
-    @DBRef
     private List<Reply> replyList;
-
 }

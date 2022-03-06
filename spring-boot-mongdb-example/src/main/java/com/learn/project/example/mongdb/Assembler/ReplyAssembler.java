@@ -14,7 +14,7 @@ import java.util.UUID;
 public class ReplyAssembler {
 
     public static Reply toReply(ReplyDTO source) {
-        Reply result = new Reply();
+        Reply result = new Reply("");
         result.setId(UUID.randomUUID().toString());
         result.setContent(source.getContent());
         result.setCommentId(source.getCommentId());

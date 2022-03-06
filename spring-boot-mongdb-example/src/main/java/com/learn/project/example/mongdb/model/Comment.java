@@ -39,14 +39,12 @@ public class Comment {
     /**
      * 回复List
      */
-    @DBRef
     private List<Reply> replyList;
 
     public void addReply(Reply reply) {
         if (replyList == null) {
             this.replyList = new ArrayList<>();
         }
-
         replyList.add(reply);
     }
 }
